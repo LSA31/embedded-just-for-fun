@@ -8,6 +8,8 @@
 - `firstclass/issues/submissions`: PR로 받은 학생별 개선안
 - `firstclass/materials/weekNN`: 출제자가 별도로 관리하는 과제 문서와 해설
 
+05회차는 출제자 요청에 따라 `weeks/week05/reference/`의 한국어 해설 코드와 실행용 Host·Test를 예외적으로 공개합니다. `starter/`의 결함은 보존하고 제출은 기존 `submissions/week05/<github-id>/` 경로를 사용합니다. 다른 회차의 해설과 비공개 자료까지 복사하지 않습니다.
+
 `materials`와 개인정보가 담긴 수업자료는 이 저장소 바깥에 둡니다. 이 저장소의 로컬 커밋 이름·이메일은 출제자가 지정한 값으로 설정하며 다른 저장소의 전역 설정은 바꾸지 않습니다.
 
 ## 새 주차 추가

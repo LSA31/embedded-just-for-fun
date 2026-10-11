@@ -9,10 +9,13 @@
 | 2주차 | 자료형과 배열, 메모리와 포인터 | [와이퍼 센서값 변환](weeks/week02/README.md) | [decode_rain.c](weeks/week02/starter/decode_rain.c) |
 | 3주차 | 비트 연산, 레지스터 제어, volatile | [탐사 장치 레지스터 제어](weeks/week03/README.md) | [register_control.c](weeks/week03/starter/register_control.c) |
 | 4주차 | MCU 구조, Build, 초기화, Git 관리 | [MCU 초기화 기능 구현](weeks/week04/README.md) | [네 Module과 Host test](weeks/week04/starter/) |
+| 05회차 | TC387QP GPIO, STM Timer, Polling, 주기 수집 | [주기 수집 기능 개선](weeks/week05/README.md) | [세 Module과 Host test](weeks/week05/starter/) |
 
-`week02`, `week03`, `week04`는 수업 회차입니다. 달력의 월별 주차나 제출 마감일을 뜻하지 않습니다.
+`week02`, `week03`, `week04`, `week05`는 수업 회차입니다. 달력의 월별 주차나 제출 마감일을 뜻하지 않습니다.
 
 **4주차를 시작한다면 [4주차 전용 제출 안내](weeks/week04/SUBMISSION.md)를 따라 하세요.** MCU 요구값을 네 `.c` Module에 구현하고, Host test와 Build 단계 확인을 마친 뒤 실제 PR을 제출합니다.
+
+**05회차는 [한국어 해설 코드](weeks/week05/reference/README.md)를 함께 공개합니다.** 해설과 근거를 읽고 원본 Starter를 개선한 뒤, Timing 분석과 직접 작성한 추가 Test·실행 결과를 기존 방식의 PR로 제출하세요. 자세한 순서는 [05회차 제출 안내](weeks/week05/SUBMISSION.md)를 따릅니다.
 
 ## 과제 풀기
 
@@ -42,6 +45,13 @@ weeks/
     PR_BODY.md                # 4주차 PR 작성양식
     REFERENCES.md             # Datasheet와 고정 공개 예제 링크
     starter/                  # 네 .c Module, API, Host 대역, tests, Makefile
+  week05/
+    README.md                 # TC387QP GPIO·STM·Polling 요구사항
+    SUBMISSION.md             # 해설 학습부터 기존 방식의 PR 제출까지
+    PR_BODY.md                # 근거·이해한 내용·검증을 적는 양식
+    REFERENCES.md             # Datasheet·Board·User Manual·공식 예제
+    starter/                  # 개선 전 세 Module과 Host test
+    reference/                # 05회차에 한해 공개하는 한국어 해설 코드
 submissions/
   week02/<github-id>/         # 학생별 PR로 추가
     decode_rain.c            # 자신의 개선 코드
@@ -58,6 +68,13 @@ submissions/
     README.md                # 원인·변경·검증 설명
     BUILD_ENV.md             # 도구·Source 기준·실행 환경
     TRACE.md                 # Datasheet·Build·Startup·Module 근거
+  week05/<github-id>/
+    src/                     # 직접 개선한 GPIO·Timer·Collector
+    tests/                   # 제공 검증과 직접 추가한 Test
+    logs/                    # 본인이 실행한 Test와 Demo 결과
+    README.md                # 근본 원인·수정 원리·근거
+    BUILD_ENV.md             # 실제 실행 환경
+    TIMING.md                # Tick 계산·호출표·지연 분석
 templates/
   week/README.md              # 새 주차 문제 작성 양식
   submission/README.md        # 학생 답변 작성 양식
@@ -70,6 +87,7 @@ docs/
 ## 운영 원칙
 
 - `weeks`에는 항상 개선 전 코드와 문제를 보존합니다.
+- 05회차만 `reference`의 한국어 해설 코드를 함께 제공합니다. 참고 구현을 읽고 스스로 근거를 설명하며 검증하는 학습 방식입니다. 다른 회차의 비공개 해설은 포함하지 않습니다.
 - 풀이 PR은 자기 `submissions` 폴더에 제출합니다. 원본이나 다른 사람의 답안을 덮어쓰지 않습니다.
 - 증상 한 개만 고치는 것으로 끝내지 않고, 문제의 근본 원인을 모두 찾아 설명합니다.
 - 정답 구현을 한 가지로 고정하지 않습니다. 요구 조건을 만족하는지, 선택한 방식의 근거와 단점을 설명하는지 함께 봅니다.
