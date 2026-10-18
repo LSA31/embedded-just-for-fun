@@ -1,6 +1,6 @@
 # 06회차 문제 풀이 접근법
 
-[과제](README.md) · [PDF로 읽기](docs/06회차_문제_풀이_접근법.pdf) · [공식 근거](REFERENCES.md) · [PR 제출 안내](SUBMISSION.md)
+[과제](README.md) · [공식 근거](REFERENCES.md) · [PR 제출 안내](SUBMISSION.md)
 
 ## 정답보다 먼저, 무엇을 입증할지 정합니다.
 

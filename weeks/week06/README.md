@@ -1,6 +1,6 @@
 # 06회차 TC387QP Interrupt 수집 개선 요청서
 
-[과제 PDF](docs/06회차_TC387QP_Interrupt_수집_개선_요청서.pdf) · [풀이 접근법](APPROACH.md) · [풀이 접근법 PDF](docs/06회차_문제_풀이_접근법.pdf) · [PR 제출 안내](SUBMISSION.md)
+[풀이 접근법](APPROACH.md) · [PR 제출 안내](SUBMISSION.md)
 
 ## 주기 수집 요청이 사라지는 원인을 찾아 주세요.
 

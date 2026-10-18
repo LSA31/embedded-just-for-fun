@@ -18,7 +18,7 @@
 
 **05회차는 [한국어 해설 코드](weeks/week05/reference/README.md)를 함께 공개합니다.** 해설과 근거를 읽고 원본 Starter를 개선한 뒤, Timing 분석과 직접 작성한 추가 Test·실행 결과를 기존 방식의 PR로 제출하세요. 자세한 순서는 [05회차 제출 안내](weeks/week05/SUBMISSION.md)를 따릅니다.
 
-**06회차는 [풀이 접근법](weeks/week06/APPROACH.md)과 PDF를 함께 제공합니다.** 학습 목표·공식 근거·11개 근본 원인을 참고해 세 C Module을 직접 개선하고, 추가 Test와 실행 결과를 [06회차 제출 안내](weeks/week06/SUBMISSION.md)에 따라 PR로 제출하세요.
+**06회차는 [풀이 접근법](weeks/week06/APPROACH.md)을 함께 제공합니다.** 학습 목표·공식 근거·11개 근본 원인을 참고해 세 C Module을 직접 개선하고, 추가 Test와 실행 결과를 [06회차 제출 안내](weeks/week06/SUBMISSION.md)에 따라 PR로 제출하세요.
 
 ## 과제 풀기
 
@@ -61,7 +61,6 @@ weeks/
     PR_BODY.md                # 모든 원인·공식 근거·Test 기록 양식
     REFERENCES.md             # Datasheet·STM·Interrupt·iLLD 공식 근거
     APPROACH.md               # 공개 풀이 접근법과 모든 근본 원인
-    docs/                     # 과제 요청서·풀이 접근법 PDF
     starter/                  # 개선 전 세 Module과 결정적 Host Test
 submissions/
   week02/<github-id>/         # 학생별 PR로 추가
@@ -106,7 +105,8 @@ docs/
 
 - `weeks`에는 항상 개선 전 코드와 문제를 보존합니다.
 - 05회차만 `reference`의 한국어 해설 코드를 함께 제공합니다. 참고 구현을 읽고 스스로 근거를 설명하며 검증하는 학습 방식입니다. 다른 회차의 비공개 해설은 포함하지 않습니다.
-- 06회차는 풀이 접근법 문서와 PDF를 공개합니다. 내용을 참고해 직접 개선 코드를 작성하고 추가 Test와 실제 실행 결과를 제출합니다.
+- 06회차는 풀이 접근법 Markdown 문서를 공개합니다. 내용을 참고해 직접 개선 코드를 작성하고 추가 Test와 실제 실행 결과를 제출합니다.
+- PDF는 로컬 자료와 배포 ZIP에서 관리하며 이 저장소에는 올리지 않습니다.
 - 풀이 PR은 자기 `submissions` 폴더에 제출합니다. 원본이나 다른 사람의 답안을 덮어쓰지 않습니다.
 - 증상 한 개만 고치는 것으로 끝내지 않고, 문제의 근본 원인을 모두 찾아 설명합니다.
 - 정답 구현을 한 가지로 고정하지 않습니다. 요구 조건을 만족하는지, 선택한 방식의 근거와 단점을 설명하는지 함께 봅니다.
